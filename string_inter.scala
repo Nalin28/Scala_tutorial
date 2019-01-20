@@ -6,5 +6,6 @@ object HelloWorld{
 		println(name + " is "+ age + "years old")//concatination
 		println(s"$name is $age years old")//s string interpolation
 		println(f"$name%s is $age%d years old")//f interpolation %f for float
+		printlm(raw"Hello \nworld")//raw interpolation-does not recognise escape sequence(prints literally!)
 	}
 }
