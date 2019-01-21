@@ -4,3 +4,6 @@ object HelloWorld{//is a class which already has an instance so you cant call a 
 		println("Hello, world!")
 	}
 }
+
+
+

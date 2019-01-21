@@ -39,3 +39,42 @@ object Demo{
 
 	}
 }
+
+
+//default value functions
+
+object Demo{
+	object Math{
+		def add(x: Int = 45, y: Int = 15): Int = {
+			return x+y;
+		}
+		def square(x: Int) = x*x;
+	}
+		def print(x : Int, y : Int): Unit = {
+			println(x+y);
+		
+	}
+
+
+	def main(args: Array[String]){
+		print(100,200);
+		println(Math.add());//add(60)->45 will be replaced with 45 and so on.
+		println(Math square 3);
+	}
+
+}
+
+
+
+//we can have def **() or def +() as function notations
+
+
+def main(args: Array[String]){
+		var add = (x: Int, y: Int) => x+y;//anonymous function
+		println(add(300,500));
+	}
+
+
+
+
+
