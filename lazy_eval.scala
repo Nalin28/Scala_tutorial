@@ -43,7 +43,7 @@ object Demo{
 		}
 		def method2(n: => Int){//call by name
 			println("Method 2");
-			println(n);
+			println(n);//untill the value of n is not printed first the add method will not be called hence first n will get printed
 		}
 		def main(args:  Array[String]){
 			val add = (a: Int, b: Int) => {
